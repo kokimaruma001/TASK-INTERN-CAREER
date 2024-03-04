@@ -1,0 +1,58 @@
+/* Add this to your main styles.css file or create a new styles file for services */
+
+/* Styles for the services page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    color: #fff;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #0a0a0a;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 0.5em;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+section {
+    padding: 2em;
+}
+
+h2 {
+    color: #838383;
+}
+
+p {
+    color: rgb(224, 224, 224);
+}
+
+footer {
+    background-color: #080808;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Main Colors = Black and Lightblue-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Marker_Media_Home_CSS.css">
+    <title>Marker Media</title>
+    <link rel="icon" type="image/png" href="Images\MAIN.png"/>
+    <meta name = "description" content = "Marker Media is a photography and film production company based in Cape Town. We captures moments and create stories that will leave a PERMANENT MARK wherever it's consumed">
+</head>
+
+<body>
+    <!-- create drawing cursor
+    body {
+        cursor: url('image-path.png'), url('image-path-2.svg), 
+        url('image-path-3.jpeg'), auto;
+    }
+ -->
+    <header>
+        <h1>Marker Media</h1>
+        <p>Capturing Moments, Creating Stories</p>
+    </header>
+
+    <nav>
+        <!-- https://codemyui.com/displace-link-hover-animation-using-splittingjs/
+        https://codemyui.com/tag/navigation-menu/
+        https://codemyui.com/uber-design-style-hamburger-menu-to-split-screen-navigation/
+        -->
+        <a href="#home.html">Home</a>
+        <a href="MM_AboutUs_HTML.html">About Us</a>
+        <a href="MM_Portfolio_HTML.html">Portfolio</a>
+        <a href="MM_Services_HTML.html">Services</a>
+        <a href="MM_Contact_HTML.html">Contact</a>
+
+        <input id="page-nav-toggle" class="main-navigation-toggle" type="checkbox" />
+        <label for="page-nav-toggle">
+            <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+                <g class="icon-group">
+                    <g class="icon--menu">
+                        <path d="M 6 0 L 54 0" />
+                        <path d="M 6 15 L 54 15" />
+                        <path d="M 6 30 L 54 30" />
+                    </g>
+                    <g class="icon--close">
+                        <path d="M 15 0 L 45 30" />
+                        <path d="M 15 30 L 45 0" />
+                    </g>
+                </g>
+            </svg>
+        </label>
+       
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Marker Media</h2>
+        <p>Your go-to destination for stunning photography and compelling video production.</p>
+        <p>Explore our portfolio and discover the range of services we offer to bring your ideas to life.</p>
+    </section>
+
+    <section id="featured-work">
+        <h2>Featured Work</h2>
+        <!-- Showcase some featured portfolio items here with images and descriptions -->
+        <div class="portfolio-item">
+            <a href="https://www.instagram.com/nkazimlo_mpumlwana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                <img src="Images\malemodel.jpg" alt="Portfolio Item 1">
+            </a>
+                <p><i>Worked with the male model <a href="https://www.instagram.com/nkazimlo_mpumlwana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color:darkgray">Nkazi</a></i></p>
+        </div>
+        <div class="portfolio-item">
+            <img src="Images\tpgroup.png" alt="Portfolio Item 2">
+            <p>Worked alongside a authentic group featuring TP, 2, 3</p>
+        </div>
+        <!-- Add more featured work items as needed -->
+    </section>
+
+    <section id="about-us">
+        <h2 id="about-us-title">About Us</h2>
+        <p>At Marker Media, we believe in the power of visual storytelling. Our team of experienced photographers and videographers is dedicated to capturing moments that matter and creating compelling narratives for our clients.</p>
+        <p>With a passion for creativity and a commitment to excellence, we bring your ideas to life through the lens.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Marker Media. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
